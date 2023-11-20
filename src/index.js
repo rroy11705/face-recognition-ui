@@ -1,17 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import ReactModal from 'react-modal';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import ReactModal from "react-modal";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-ReactModal.setAppElement('#root');
-ReactModal.defaultStyles.overlay.backgroundColor = '#222';
+const root = ReactDOM.createRoot(document.getElementById("root"));
+ReactModal.setAppElement("#root");
+ReactModal.defaultStyles.overlay.backgroundColor = "#222";
 
-root.render(
-  <App />
-);
+root.render(<App />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
