@@ -248,7 +248,6 @@ const CameraInput = ({ name, opened, close }) => {
               </>
             )}
           </div>
-          {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
           <video
             id="video"
             className="relative w-full"
@@ -257,12 +256,11 @@ const CameraInput = ({ name, opened, close }) => {
             autoPlay
             muted
           />
-          <canvas id="final-image-canvas" className="absolute w-full z-[100]" />
+          <canvas id="final-image-canvas" />
         </div>
         <canvas
           id="face-api-canvas"
           ref={canvasRef}
-          className="absolute top-0 w-100% max-w-[100vw] left-1/2 -translate-x-1/2"
         />
       </Modal>
       <div className="profile-frame">
