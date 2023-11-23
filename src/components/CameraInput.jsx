@@ -250,7 +250,6 @@ const CameraInput = ({ name, opened, close }) => {
           </div>
           <video
             id="video"
-            className="relative w-full"
             crossOrigin="anonymous"
             ref={videoRef}
             autoPlay
